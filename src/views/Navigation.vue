@@ -12,7 +12,7 @@
         <el-aside width="160px" style="background-color: #313a46">
           <el-menu text-color="#838f9c" active-text-color="#12263f" :default-active="onRoutes">
             <div class="klook-logo">
-              <img src="../assets/klookLogo.png" class="img-logo" />
+              <img src="../assets/logo.png" class="img-logo" />
             </div>
             <router-link to="/">
               <el-menu-item index="1" class="menu-option">

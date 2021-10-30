@@ -65,11 +65,11 @@ function commonRequest(requestType, url, dataOrParam, responseType, isLoading = 
       if (isLoading) {
         loadingInstance.close()
       }
-      const res = resp.data
-      if (res.success === false) {
-        return Promise.reject(res)
+      const data = resp.data
+      if (data.success === false) {
+        return Promise.reject(data)
       }
-      return res
+      return data
     })
     .catch(error => {
       let response = {}
